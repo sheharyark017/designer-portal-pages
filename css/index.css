@@ -1,0 +1,172 @@
+/* order section */
+
+.order {
+  background-color: #f3f3f3;
+  /* margin: 200px 0; */
+  padding: 0 20px;
+}
+.name p:nth-child(1),
+.job-type p:nth-child(1),
+.description p:nth-child(1),
+.deadline p:nth-child(1) {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.order .row {
+  align-items: center;
+}
+
+.order-link button {
+  margin: 0 auto;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+  width: 60%;
+  margin-bottom: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  background-color: #19488f;
+  padding: 3px 10px;
+}
+
+/* end order section */
+
+/* student register */
+
+.student-register {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #d9e3ef;
+}
+
+.student-register .row {
+  align-items: center;
+}
+
+.sr-head p {
+  text-align: center;
+  color: #19488f;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.sr-text ul {
+  padding: 0;
+}
+
+.sr-text li {
+  color: #245bad;
+  font-weight: 500;
+  font-size: 24px;
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.sr-text button {
+  background-color: #19488f;
+  border-radius: 4px;
+  padding: 5px 15px;
+  color: #fff;
+}
+
+/* end student register */
+
+/* video section */
+
+.video-section {
+  padding: 0px 20px;
+  background-color: #d9e3ef;
+  margin-top: 50px;
+}
+
+.video-text-top {
+  margin-bottom: 30px;
+}
+
+.video-text-top p {
+  color: #273898;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.vh {
+  font-size: 20px;
+  font-weight: 600;
+  color: #273898;
+  margin-bottom: 5px;
+}
+
+.vt {
+  color: #1767a8;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.video-col {
+  display: flex;
+  align-items: center;
+}
+
+.sr-button button {
+  background-color: #19488f;
+  padding: 6px 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  color: #fff;
+}
+/* end video section */
+
+/* blog */
+
+.chj-blog {
+  padding: 100px;
+}
+
+.chj-blog-head {
+  text-align: center;
+  font-size: 37px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.blog-col {
+  padding: 20px;
+  box-shadow: 0 0 5px 0px #a0a0a0;
+  border-radius: 10px;
+}
+
+.chj-blog .image img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.chj-blog .title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.chj-blog .blog-description {
+  font-weight: 400;
+  color: #696969;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.chj-blog .blog-btn {
+  text-align: center;
+}
+
+.chj-blog .blog-btn a {
+  text-decoration: none;
+  background-color: #ff9933;
+  color: #fff;
+  border-radius: 99px;
+  padding: 5px 15px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* blog end */

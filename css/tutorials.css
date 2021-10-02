@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.tutorials-page {
+  padding: 4% 2%;
+}
+
+.underline {
+  height: 4px;
+  width: 100px;
+  margin: auto;
+  border-radius: 99px;
+}
+
+.tutorials-head {
+  margin-bottom: 50px;
+}
+
+.tutorials-head p:nth-child(1) {
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 600;
+  color: #273898;
+  text-align: center;
+}
+
+.tutorials-head p:nth-child(2) {
+  color: #2c70be;
+  margin: 0 150px;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.photoshop-tutorials {
+  margin-bottom: 50px;
+}
+
+.tutorial-head {
+  margin-bottom: 40px;
+}
+
+.photoshop-tutorials .tutorial-head p {
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #08518d;
+}
+
+.photoshop-tutorials .underline {
+  background: #08518d;
+}
+
+.illustrator-tutorials .tutorial-head p {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #570f07;
+  margin-bottom: 0;
+}
+
+.illustrator-tutorials .underline {
+  background-color: #570f07;
+}
+
+.video {
+  width: 100%;
+}
+
+.video iframe {
+  width: 100%;
+}
+
+.divider {
+  width: 100%;
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: space-around;
+}
+
+.divider div {
+  height: 3px;
+  width: 5%;
+}
+
+.divider div:nth-child(1),
+.divider div:nth-child(4),
+.divider div:nth-child(7) {
+  background-color: #2573da;
+}
+
+.divider div:nth-child(2),
+.divider div:nth-child(5),
+.divider div:nth-child(8) {
+  background-color: #4e050f;
+}
+
+.divider div:nth-child(3),
+.divider div:nth-child(6),
+.divider div:nth-child(9) {
+  background-color: #17ffff;
+}
+
+.tutorials-btn {
+  margin: 50px 0 30px;
+  text-align: center;
+}
+
+.tutorials-btn button {
+  color: #fff;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 7px 22px;
+  border-radius: 5px;
+  background-color: #273898;
+}
