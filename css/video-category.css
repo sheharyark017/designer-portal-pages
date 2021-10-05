@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.tutorials-page {
+  padding: 4% 2%;
+}
+
+.underline {
+  height: 4px;
+  width: 100px;
+  margin: auto;
+  border-radius: 99px;
+}
+
+.tutorials-head {
+  margin-bottom: 0px;
+}
+
+.tutorials-head p:nth-child(1) {
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 700;
+  color: #273898;
+  text-align: center;
+}
+
+.tutorials-head p:nth-child(2) {
+  color: #2c70be;
+  margin: 0 150px;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.categories {
+  padding: 0 10%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.category {
+  /* height: 150px; */
+  margin: 25px 0 0;
+}
+
+.inner-category {
+  padding: 40px 0;
+  border-radius: 7px;
+}
+
+.inner-category.ps {
+  border: 3px solid rgb(43, 140, 175);
+  background: rgba(44, 133, 165, 0.3);
+  box-shadow: inset 0 0 10px 0 #265f94;
+}
+
+.inner-category.ai {
+  border: 3px solid rgb(245, 124, 4);
+  background: rgba(236, 138, 39, 0.3);
+  box-shadow: inset 0 0 10px 0 rgb(136, 71, 6);
+}
+
+.inner-category.xd {
+  border: 3px solid rgb(177, 66, 185);
+  background: rgba(141, 67, 146, 0.3);
+  box-shadow: inset 0 0 10px 0 rgb(197, 73, 206);
+}
+
+.inner-category.pr {
+  border: 3px solid rgb(109, 109, 233);
+  background: rgb(109, 109, 233, 0.3);
+  box-shadow: inset 0 0 10px 0 rgb(81, 81, 206);
+}
+
+.inner-category.ae {
+  border: 3px solid rgb(123, 123, 240);
+  background: rgba(114, 114, 231, 0.3);
+  box-shadow: inset 0 0 10px 0 rgb(75, 75, 185);
+}
+
+.inner-category p {
+  /* text-transform: uppercase; */
+  font-size: 23px;
+  font-weight: 700;
+  margin: 10px 0 30px;
+}
+
+.category button {
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 5px 13px;
+  margin: 0px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.ps button {
+  background-color: #276198;
+  box-shadow: 0 0 5px 0 #20568a;
+}
+
+.ai button {
+  background-color: #af6215;
+  box-shadow: 0 0 5px 0 #9e5914;
+}
+
+.xd button {
+  background-color: rgb(165, 73, 172);
+  box-shadow: 0 0 5px 0 rgb(161, 54, 168);
+}
+
+.pr button {
+  background-color: rgb(109, 109, 233);
+  box-shadow: 0 0 5px 0 rgb(59, 59, 177);
+}
+
+.ae button {
+  background-color: rgb(109, 109, 233);
+  box-shadow: 0 0 5px 0 rgb(59, 59, 177);
+}
+
+.inner-category img {
+  height: 130px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 980px) {
+  .tutorials-head p:nth-child(2) {
+    color: #2c70be;
+    margin: 0 15px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500;
+  }
+}
