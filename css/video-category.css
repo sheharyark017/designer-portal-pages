@@ -92,7 +92,7 @@ body {
   margin: 10px 0 30px;
 }
 
-.category button {
+.category .select {
   color: #fff;
   outline: none;
   border: none;
@@ -100,29 +100,30 @@ body {
   margin: 0px;
   border-radius: 3px;
   font-weight: 500;
+  display: inline;
 }
 
-.ps button {
+.ps .select {
   background-color: #276198;
   box-shadow: 0 0 5px 0 #20568a;
 }
 
-.ai button {
+.ai .select {
   background-color: #af6215;
   box-shadow: 0 0 5px 0 #9e5914;
 }
 
-.xd button {
+.xd .select {
   background-color: rgb(165, 73, 172);
   box-shadow: 0 0 5px 0 rgb(161, 54, 168);
 }
 
-.pr button {
+.pr .select {
   background-color: rgb(109, 109, 233);
   box-shadow: 0 0 5px 0 rgb(59, 59, 177);
 }
 
-.ae button {
+.ae .select {
   background-color: rgb(109, 109, 233);
   box-shadow: 0 0 5px 0 rgb(59, 59, 177);
 }
@@ -130,6 +131,23 @@ body {
 .inner-category img {
   height: 130px;
   margin-bottom: 20px;
+}
+
+.done-btn {
+  margin-top: 40px;
+}
+
+.done-btn button {
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 8px 25px;
+  margin: 0px;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 18px;
+  display: inline;
+  background-color: #20568a;
 }
 
 @media screen and (max-width: 980px) {
